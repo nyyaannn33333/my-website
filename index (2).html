@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Мій інтернет-магазин</title>
+    <style>
+      body {
+        background-color: #FFF6DE;
+        color: #3D0C0C;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="title">Online books shop</h1>
+    <h2 style="color: #92523E;">Delivery to any country</h2>
+    <p style="color: #C68051; line-height: 1.5;">No return</p>
+    <p>Don't miss the exclusive sale!</p>
+
+    <iframe width="500" height="315"
+      src="https://www.youtube.com/embed/dLouyT7-1Nk?si=9xF-o-Zhhjo0MD6W"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+
+    <h3>Background music</h3>
+    <audio src="Steven Universe – Escapism" controls></audio><br><br>
+
+    <form>
+      <label for="name">Name: </label><br>
+      <input type="text" id="name" name="name" required minlength="2"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="review">Your review:</label><br>
+      <textarea id="review" name="review" rows="4" cols="50" required></textarea><br><br>
+
+      <label for="rating">Rating:</label><br>
+      <select id="rating" name="rating" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="5">Excellent</option>
+        <option value="4">Fine</option>
+        <option value="3">Normal</option>
+        <option value="2">Bad</option>
+        <option value="1">Terrible</option>
+      </select><br><br>
+
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
